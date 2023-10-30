@@ -4,7 +4,7 @@
 </p>
 
 ## Review the website offline
-1. [Download](https://github.com/RealCocoArdo/BitcoinOverview/archive/refs/heads/main.zip) and save the code.
+1. [Download](https://github.com/RealCocoArdo/free-website-template/archive/refs/heads/main.zip) and save the code.
 2. Open the folder were you saved the code.
 3. Unzip the downloaded file to a directory of your choice. Ideally in the same folder were you saved the .zip file.
 4. Open the folder. Press right click on the "index.html" file and select "Open with" and choose your favourite browser.
