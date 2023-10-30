@@ -1,0 +1,203 @@
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #232533;
+    /* background: linear-gradient(#232533, #151515); */
+    margin: 0;
+    padding: 1%;
+    color: #FFFFFF;
+    font-size: 21px;
+}
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 50px 0 50px;
+    }
+        .navlogo{
+            margin-top: 10px;
+        }
+            .navlogo img{
+                width: 80px;
+            }
+        .topbar{
+            list-style-type: none;
+            margin: 0;
+            display: flex;
+            line-height: 100px;
+            font-size: 20px;
+        }
+            .topbar li{
+                margin: 0 0 0 50px;
+                color: rgb(70, 206, 240);            
+            }
+                .topbar li a{
+                    color: #FDBE00;
+                    text-decoration: none;
+                }
+                    .topbar li a:hover{
+                        color: rgb(70, 206, 240);
+                    }
+            .topbarmenu{
+                margin-left: 50px;
+            }
+                .topbarmenu button{
+                    background-color: transparent; 
+                    border-width: 0; 
+                    font-family: inherit; 
+                    font-size: inherit; 
+                    font-style: inherit; 
+                    font-weight: inherit; 
+                    line-height: inherit; 
+                    padding: 0;
+
+                    display: flex;
+                    color: #FDBE00;
+                    margin-top: 30px;
+                }
+                .bar{
+                    border-radius: 10px;
+                    line-height: 30px;
+                    height: 35px;
+                    width: 6px;
+                    margin: 2px;
+                    flex-direction: row;
+                    background-color: #FDBE00;
+                }
+                .dropbtn {
+                    cursor: pointer;
+                }  
+                    .dropbtn:hover, .dropbtn:focus {
+                        opacity: 0.8;
+                    }
+                    .dropdown{
+                        display: inline-block;
+                    }
+                        .dropdown-content{
+                            right: 0;
+                            width: 100%;
+                            margin: 30px 0 0 0; 
+                            display: none;
+                            position: absolute;
+                            background: #222222;
+                            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                            z-index: 1;
+                        }
+                            .dropdown-content a {
+                                text-align: right;
+                                margin-right: 140px;
+                                text-decoration: none;
+                                color: #FDBE00;
+                                display: block;
+                            }
+                                #blue{
+                                    color: rgb(70, 206, 240);
+                                }
+                                .dropdown-content a:hover{
+                                    color: rgb(70, 206, 240);
+                                }
+                                    .show {
+                                        display:block;
+                                    }
+    
+    .title{
+        margin-top: 50px;
+        text-align: center;
+        font-size: 45px;
+    }
+    .loremipsum{
+        margin: 100px 25% 0 25%;
+        text-align: center;
+    }
+
+    .listoverview{
+        list-style-type: none;
+        margin: 0%;
+        margin-top: 450px;
+        padding-left: 0%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+        .listoverview li{
+            padding-top: 1%;
+            padding-right: 2.5%;
+            padding-left: 2.5%;
+        }
+            .listoverview li img{
+                width: 45px;
+                height: 45px;
+            }
+            .listoverview li a:hover{
+                opacity: 0.5;
+            }
+
+        .listimpressum{
+            list-style-type: none;
+            margin: 0%;
+            padding-left: 0%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+            .listimpressum li{
+                margin: 0%;
+                padding: 0%;
+                padding-right: 2.5%;
+                padding-left: 2.5%;
+            }
+                .listimpressum li a{
+                    color: grey;
+                    text-decoration: none;                    
+                }
+                    .listimpressum li a:hover{
+                        color: rgb(70, 206, 240);
+                    }
+
+/*################################################################################### Mobile-Version: ######################################################################*/
+@media (max-width:1100px) {
+    .nav{
+        margin: 0 15px 0 0;
+        justify-content: right;
+    }
+        .navlogo{
+            display: none;
+        }
+        .topbar{
+            font-size: 18px;
+        }
+            .topbar li{
+                margin: 0 0 0 15px;
+            }
+            .topbarmenu{
+                margin-left: 20px;
+            }
+                .topbarmenu button{
+                    margin-top: 30px;
+                }
+                .bar{
+                    height: 35px;
+                }
+                    .dropdown-content a {
+                        margin-right: 65px;
+                    }
+    .title{
+        margin-top: 25px;
+    }
+    .loremipsum{
+        margin: 100px 10% 0 10%;
+        text-align: center;
+    }
+
+    .listoverview{
+        margin-top: 200px;
+    }
+}
+
+/*################################################################################### Light-Mode: ######################################################################*/
+@media (prefers-color-scheme: light) {
+
+}
