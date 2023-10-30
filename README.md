@@ -3,6 +3,8 @@
 <p align="center"><img src="screenshots/navbar.PNG"></img><a href="https://opensource.org/licenses/MIT" title="License: MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></img></a>
 </p>
 
+Original designed by Coco_Ardo.
+
 ## Review the website offline
 1. [Download](https://github.com/RealCocoArdo/free-website-template/archive/refs/heads/main.zip) and save the code.
 2. Open the folder were you saved the code.
