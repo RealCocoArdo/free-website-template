@@ -60,3 +60,14 @@ This code has a [MIT License](LICENSE.txt).
 ![Screenshot of Donate.html](screenshots/dropdownMobile.PNG)
 
 </details>
+
+## Roadmap
+<details>
+<summary>see more</summary>
+
+* Detailed comments in all -html .css and .js files
+* Article templates
+* Templates to import pictures
+* Templates for tables
+
+</details>
