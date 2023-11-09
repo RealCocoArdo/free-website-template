@@ -11,7 +11,35 @@ Original designed by Coco_Ardo.
 3. Unzip the downloaded file to a directory of your choice. Ideally in the same folder were you saved the .zip file.
 4. Open the folder. Press right click on the "index.html" file and select "Open with" and choose your favourite browser.
 
+## Adjust the website for your needs
+<details>
+<summary>see more</summary>
+Things that should be conciderd:
 
+* Replace these with your own informations in each .html file
+```
+    <head>
+        <title>free website template</title>
+        <meta name="lightning" content="lnurlp:Coco_Ardo@ln.tips"/>
+    <head>
+    
+    <footer>
+        <a href="https://snort.social/p/npub1cj9xlvy6qd2ck8k02qw79nsf4jf4hslu94e77k6evdl8t0xa7f2syga2tw" target="_blank">...</a>
+        <a href="https://www.reddit.com/user/Coco_Ardo/" target="_blank">...</a>
+        <a href="https://discord.gg/DMP53qDM7c" target="_blank">...</a>
+        <a href="https://github.com/RealCocoArdo" target="_blank">...</a>
+
+        <a href="https://github.com/RealCocoArdo/free-website-template/blob/main/LICENSE" target="_blank">@<script>document.write(/\d{4}/.exec(Date())[0])</script> License</a>
+    </footer>
+```
+* You can also delete the licence reference instead
+* Replace the `pictures/Favicon.png` with your own Favicon.png icon
+* If you want to change the name like `Home` | `Projects` | `Donate` | `About` you need to rename them in every .html file
+* You can copy paste elements crosspages. The styling is global
+* If you change colors make sure it suitable in light and dark mode (Seperated in `main.css`)
+* If you change proportions make sure the desktop and the mobile version still fit (Seperated in `main.css`)
+
+</details>
 
 ## Design compatibility
 <details>
