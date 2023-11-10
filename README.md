@@ -86,6 +86,8 @@ This code has a [MIT License](LICENSE.txt).
 ![Screenshot of Donate.html](screenshots/dropdown.PNG)
 ![Screenshot of Knowledge.html](screenshots/indexMobile.PNG)
 ![Screenshot of Donate.html](screenshots/dropdownMobile.PNG)
+![Screenshot of projects.html](screenshots/projects.PNG)
+![Screenshot of imprint.html](screenshots/imprint.PNG)
 
 </details>
 
