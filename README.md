@@ -100,5 +100,6 @@ This code has a [MIT License](LICENSE.txt).
 * Article templates
 * Templates to import pictures
 * Templates for tables
+* Template for dropdown menu
 
 </details>
