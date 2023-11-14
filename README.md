@@ -32,11 +32,11 @@ Things that should be conciderd:
         <a href="https://github.com/RealCocoArdo/free-website-template/blob/main/LICENSE" target="_blank">@<script>document.write(/\d{4}/.exec(Date())[0])</script> License</a>
     </footer>
 ```
-* You can also delete the licence reference instead
+* You can also delete the license reference instead
 * Replace the `pictures/Favicon.png` with your own Favicon.png icon
 * If you want to change the name like `Home` | `Projects` | `Donate` | `About` you need to rename them in every .html file
-* You can copy paste elements crosspages. The styling is global
-* If you change colors make sure it suitable in light and dark mode (Seperated in `main.css`)
+* You can copy paste elements across pages. The styling is global
+* If you change colors make sure it's suitable in light and dark mode (Seperated in `main.css`)
 * If you change proportions make sure the desktop and the mobile version still fit (Seperated in `main.css`)
 
 </details>
